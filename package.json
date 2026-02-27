@@ -1,0 +1,16 @@
+{
+  "name": "opbnb-contracts",
+  "version": "1.0.0",
+  "description": "Hardhat project for opBNB",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network bsc_testnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0",
+    "dotenv": "^16.4.5"
+  }
+}
